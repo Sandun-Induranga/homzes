@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "362088466372",
+    "project_id": "assistanse-710f3",
+    "storage_bucket": "assistanse-710f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362088466372:android:fe597d0460803967cf8691",
+        "android_client_info": {
+          "package_name": "com.example.homez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362088466372-duf7lo2h4oq4s9bevrulhumtje83ad2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDncMiYkv0j8Hq1oAkdk74V7S-TrQ1iGb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362088466372-duf7lo2h4oq4s9bevrulhumtje83ad2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362088466372:android:75995bc5fb11c4cfcf8691",
+        "android_client_info": {
+          "package_name": "com.example.homzes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362088466372-duf7lo2h4oq4s9bevrulhumtje83ad2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDncMiYkv0j8Hq1oAkdk74V7S-TrQ1iGb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362088466372-duf7lo2h4oq4s9bevrulhumtje83ad2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
