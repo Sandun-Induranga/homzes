@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../core/constants/color_codes.dart';
+
 abstract class AppThemeData {
   AppThemeData._();
 
@@ -11,37 +13,37 @@ abstract class AppThemeData {
         displayLarge: TextStyle(
           fontSize: 64.sp,
           fontWeight: FontWeight.w400,
-          color: Colors.white,
+          color: ColorCodes.blackColor,
         ),
         headlineLarge: TextStyle(
-          fontSize: 32.sp,
-          fontWeight: FontWeight.w500,
-          color: Colors.white,
+          fontSize: 36.sp,
+          fontWeight: FontWeight.w700,
+          color: ColorCodes.whiteColor,
         ),
         headlineSmall: TextStyle(
-          fontSize: 24.sp,
+          fontSize: 22.sp,
           fontWeight: FontWeight.w700,
-          color: Colors.white,
+          color: ColorCodes.blackColor,
         ),
         titleLarge: TextStyle(
-          fontSize: 20.sp,
-          fontWeight: FontWeight.w600,
-          color: Colors.white,
+          fontSize: 18.sp,
+          fontWeight: FontWeight.w700,
+          color: ColorCodes.blackColor,
         ),
         titleMedium: TextStyle(
           fontSize: 16.sp,
           fontWeight: FontWeight.w600,
-          color: Colors.white,
+          color: ColorCodes.blackColor,
         ),
         titleSmall: TextStyle(
           fontSize: 14.sp,
-          fontWeight: FontWeight.w700,
-          color: Colors.white,
+          fontWeight: FontWeight.w600,
+          color: ColorCodes.blackColor,
         ),
         labelSmall: TextStyle(
           fontSize: 12.sp,
-          fontWeight: FontWeight.w500,
-          color: Colors.white,
+          fontWeight: FontWeight.w600,
+          color: ColorCodes.labelSmallTextColor,
         ),
       ),
     );
@@ -54,37 +56,37 @@ abstract class AppThemeData {
         displayLarge: TextStyle(
           fontSize: 64.sp,
           fontWeight: FontWeight.w400,
-          color: Colors.white,
+          color: ColorCodes.blackColor,
         ),
         headlineLarge: TextStyle(
-          fontSize: 32.sp,
-          fontWeight: FontWeight.w500,
-          color: Colors.white,
+          fontSize: 36.sp,
+          fontWeight: FontWeight.w700,
+          color: ColorCodes.whiteColor,
         ),
         headlineSmall: TextStyle(
-          fontSize: 24.sp,
+          fontSize: 22.sp,
           fontWeight: FontWeight.w700,
-          color: Colors.white,
+          color: ColorCodes.blackColor,
         ),
         titleLarge: TextStyle(
-          fontSize: 20.sp,
-          fontWeight: FontWeight.w600,
-          color: Colors.white,
+          fontSize: 18.sp,
+          fontWeight: FontWeight.w700,
+          color: ColorCodes.blackColor,
         ),
         titleMedium: TextStyle(
           fontSize: 16.sp,
           fontWeight: FontWeight.w600,
-          color: Colors.white,
+          color: ColorCodes.blackColor,
         ),
         titleSmall: TextStyle(
           fontSize: 14.sp,
-          fontWeight: FontWeight.w700,
-          color: Colors.white,
+          fontWeight: FontWeight.w600,
+          color: ColorCodes.blackColor,
         ),
         labelSmall: TextStyle(
           fontSize: 12.sp,
-          fontWeight: FontWeight.w500,
-          color: Colors.white,
+          fontWeight: FontWeight.w600,
+          color: ColorCodes.labelSmallTextColor,
         ),
       ),
     );

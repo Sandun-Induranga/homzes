@@ -18,9 +18,15 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   final PropertyRepository _propertyRepository = PropertyRepository();
 
   FutureOr<void> _loadProperties(
-      LoadPropertiesEvent event, Emitter<HomeState> emit) async {
+    LoadPropertiesEvent event,
+    Emitter<HomeState> emit,
+  ) async {
     try {
-      emit(state.copyWith(status: HomeStatus.loading));
+      emit(
+        state.copyWith(
+          status: HomeStatus.loading,
+        ),
+      );
 
       List<Property> properties = await _propertyRepository.getProperties();
 

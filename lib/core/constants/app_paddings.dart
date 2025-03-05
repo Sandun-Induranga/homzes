@@ -29,6 +29,9 @@ abstract class AppPaddings {
   /// An [p36]-large padding value (36.0).
   static const double p36 = 36.0;
 
+  /// An [p40]-large padding value (40.0).
+  static const double p40 = 40.0;
+
   /// An [p64]-large padding value (64.0).
   static const double p64 = 64.0;
 

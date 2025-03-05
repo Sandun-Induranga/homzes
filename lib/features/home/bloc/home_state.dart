@@ -1,19 +1,22 @@
+import 'package:flutter/cupertino.dart';
+
 import '../data/model/property.dart';
 
 enum HomeStatus { initial, loading, success, error }
 
+@immutable
 class HomeState {
   final HomeStatus status;
   final List<Property> properties;
   final String errorMessage;
 
-  HomeState({
+  const HomeState({
     required this.status,
     required this.properties,
     required this.errorMessage,
   });
 
-  factory HomeState.initial() => HomeState(
+  factory HomeState.initial() => const HomeState(
     status: HomeStatus.initial,
     properties: [],
     errorMessage: '',

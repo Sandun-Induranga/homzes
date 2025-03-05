@@ -1,29 +1,41 @@
 import 'package:flutter/material.dart';
+import 'package:homzes/core/utils/extensions.dart';
 
-import '../views/search_view_all.dart';
+import '../views/home_details_view.dart';
 
 class ListTitle extends StatelessWidget {
   const ListTitle({
     super.key,
     required this.title,
+    this.isNeedViewAll = true,
   });
 
   final String title;
+  final bool isNeedViewAll;
 
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      mainAxisAlignment: isNeedViewAll ? MainAxisAlignment.spaceBetween : MainAxisAlignment.center,
       children: [
-        Text(title,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+        Text(
+          title,
+          style: context.theme.textTheme.titleLarge,
+        ),
+        if (isNeedViewAll)
         InkWell(
           onTap: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const SearchViewAll()));
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const HomeDetailsView(),
+              ),
+            );
           },
-          child: const Text("View all",
-              style: TextStyle(fontSize: 18, color: Colors.grey)),
+          child: Text(
+            "View all",
+            style: context.theme.textTheme.labelSmall,
+          ),
         ),
       ],
     );
