@@ -45,7 +45,7 @@ class CommonPageBoilerPlate extends StatelessWidget {
         children: [
           SingleChildScrollView(
             child: SizedBox(
-              height: 1.sh,
+              height: 0.8.sh,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: horizontalPadding.w),
                 child: pageBody,
